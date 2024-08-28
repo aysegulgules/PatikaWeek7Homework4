@@ -38,7 +38,7 @@
 
             foreach (var book in bookJoin)
             {
-                //Format  ile çıktı iki sütunlu tablo olarak oluşturdu
+                //Format  ile çıktı iki sütunlu tablo olarak oluşturuldu..
                 Console.WriteLine(String.Format("{0,-20} {1,5} ", book.Title,book.AuthorName,book.AuthorId));
 
             }
